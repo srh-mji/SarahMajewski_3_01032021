@@ -109,6 +109,11 @@ input::placeholder {
     text-decoration: none;
     color:black;
 }
+
+.container_filters a:hover {
+    transform: scale(1.05); 
+    color: #0065FC;
+}
 .filters {
     border: 2px solid #F2F2F2;
     border-radius: 50px;
@@ -117,6 +122,7 @@ input::placeholder {
     margin-left: 20px;
     padding-right: 20px;
 }
+
 .container_filters i {
     background-color: #deebff;
     border-radius: 50px;
@@ -150,12 +156,115 @@ input::placeholder {
     margin-right: 10px;
 
 }
+
+
 /* HOSTING */
+#hosting {
+    width: 100%;
+    display: flex;
+}
+
+#hosting a {
+    text-decoration:none;
+    color:black;
+}
+.fa-star {
+    color:#0065FC;
+}
+
+.hosting_marseille {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
+    margin-right: auto;
+}
+.hosting_figure {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hosting_figure figure {
+    margin: 0px;
+    background-color: white;
+    padding: 15px;
+}
+.hosting_figure a {
+    width:33%;
+    height: 250px;
+}
+.hosting_figure img {
+    width:80%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.popularity {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 33%;
+}
+.popularity_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+.popularity_title i {
+    font-size: 20px;
+}
+.popularity_figure 
+{
+    background-color: white;
+    border: 6px solid white;
+    box-shadow: 5px 5px 15px #cecece;
+    border-radius: 20px;
+    height: 150px;
+    display:flex;
+}
+.popularity_figure figcaption {
+    margin-left: 5%;
+}
+.popularity_figure img {
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
 
 
 /* ACTIVITY */
+.activity_container,
+.activity_container_left,
+.activity_container_right {
+    display: flex;
+}
+.activity_container a {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+.activity_figure img {
+    border-radius:20px;
+    box-shadow: 10px 5px 15px #cecece;
+    width: 350px;
+} 
+
+.activity_figure {
+    margin: 0px;
+}
+.activity_figure figcaption {
+    position: relative;
+    bottom:40px;
+    height: 60px;
+    background-color: white;
+    border-radius: 0px 0px 40px 40px;
+    
+}
 
 
+.activity_container_left_small img {
+    height: 50%;
+}
 
 /* FOOTER */
 
