@@ -5,7 +5,8 @@ body {
 }
 
 #container {
-    padding: 2%;
+    padding: 0px 3% 3%;
+    margin-bottom: 20px;
 }
 
 
@@ -14,6 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 
@@ -22,6 +24,9 @@ header {
 nav {
     width: 30%;
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
@@ -29,7 +34,7 @@ nav ul {
 }
 
 nav li {
-    padding: 5%;
+    padding: 8%;
     list-style: none;
     width: 33%;
 }
@@ -43,10 +48,9 @@ nav a {
     padding: 58px 30px 0 30px;
 }
 
-.nav_link_signin a {
+.nav_link_signin {
     font-weight: bold;
     color: #0065FC;
-    padding-top: 58px;
 }
 
 .nav_link a:hover {
@@ -57,6 +61,21 @@ nav a {
 /* MAIN */
 /* ContainerMain */
 
+h1, h2 {
+    font-size: 22px;
+}
+
+.hosting_marseille h2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.popularity_title {
+    margin-top: 25px;
+}
+.containerMain p {
+    font-size: 15px;
+}
 /* search */
 .container_search button {
     background-color: #0065FC;
@@ -65,12 +84,18 @@ nav a {
     border-radius: 0px 10px 10px 0px;
     font-weight: bolder;
     height: 40px;
+    padding: 12px;
 }
 
+.search_icon.fas.fa-search {
+    display: none;
+}
 .container_search input {
     border: 1px solid #F2F2F2;
     height: 40px;
     margin-right: -10px;
+    padding: 10px;
+    width: 170px;
 }
 
 
@@ -83,13 +108,16 @@ input::placeholder {
     display: flex;
     justify-content: start;
 }
+.container_search p {
+    margin:0px;
+}
 
 .container_search>div {
     height: 40px;
     width: 40px;
 }
 
-.container_search i {
+.fas.fa-map-marker-alt {
     border: 1px solid #F2F2F2;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
@@ -149,6 +177,7 @@ input::placeholder {
     display: flex;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -178,12 +207,13 @@ input::placeholder {
 
 .fa-star {
     color: #0065FC;
+    font-size: small;
 }
 
 .hosting_marseille {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 65%;
+    width: 67%;
     margin-right: auto;
 }
 
@@ -195,18 +225,20 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin-top: -10px;
 }
 
 .hosting_figure figure {
-    margin: 0px;
+    margin: 0px 0px 20px 0px;
     background-color: white;
+    box-shadow: 5px 5px 15px #cecece;
     border-radius: 20px;
     padding: 5px;
+    
 }
 
 .hosting_figure a {
-    width: 30%;
+    width: 29%;
     padding-bottom: 20px;
 }
 
@@ -216,15 +248,20 @@ input::placeholder {
 
 .hosting_figure img {
     width: 100%;
-    height: 160px;
+    height: 120px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 .hosting_figure figcaption {
     position: relative;
-    bottom: 30px;
-    height: 30px;
+    height: 60px;
     background-color: white;
+    padding: 4%;
+}
+
+.hosting_figure p {
+    font-size: 14px;
+    padding: 5px 0px;
 }
 .hosting_figure h4,
 .hosting_figure p {
@@ -234,7 +271,7 @@ input::placeholder {
 .popularity {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 33%;
+    width: 30%;
 }
 
 .popularity_title {
@@ -242,6 +279,8 @@ input::placeholder {
     justify-content: space-around;
     align-items: center;
     font-weight: bolder;
+    margin-bottom: -35px;
+
 }
 
 .popularity_title i {
@@ -250,11 +289,12 @@ input::placeholder {
 
 .popularity_figure {
     background-color: white;
-    border: 6px solid white;
+    border: 5px solid white;
     box-shadow: 5px 5px 15px #cecece;
     border-radius: 20px;
-    height: 150px;
+    height: 140px;
     display: flex;
+    margin: 40px 40px;
 }
 
 .popularity_figure figcaption {
@@ -263,14 +303,23 @@ input::placeholder {
 
 .popularity_figure img {
     width: 40%;
-    height: 150px;
+    height: 140px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
 }
 
+.popularity_figure h4 {
+    margin: 10px 0px 0px 0px;
+}
 
+.popularity_figure p {
+    margin: 5px 0px 25px 0px;
+    font-size: 14px;
+}
 /* ACTIVITY */
-
+#activity  {
+    margin-top: 50px;
+}
 .activity_container a {
     text-decoration: none;
     color: black;
