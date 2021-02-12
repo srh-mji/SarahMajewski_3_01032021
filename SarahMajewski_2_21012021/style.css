@@ -191,6 +191,9 @@ input::placeholder {
 
 }
 
+.container_info p {
+    width: 75%;
+}
 
 /* HOSTING */
 #hosting {
@@ -501,9 +504,11 @@ footer a {
 
     h1,
     h2 {
-        font-size: 19px;
+        font-size: 20px;
     }
-
+    .containerMain h1 { 
+        width: 80%;
+    }
     .containerMain>p {
         margin-bottom: 30px;
     }
@@ -518,7 +523,7 @@ footer a {
     }
 
     .container_search input {
-        width: 200px;
+        width: 65%;
     }
 
     .container_search button {
