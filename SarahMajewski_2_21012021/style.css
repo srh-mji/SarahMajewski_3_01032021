@@ -65,6 +65,10 @@ h2 {
     font-size: 22px;
 }
 
+h3 {
+    font-size: 15px;
+}
+
 .containerMain p {
     font-size: 14px;
 }
@@ -241,6 +245,7 @@ input::placeholder {
     box-shadow: 5px 5px 15px #cecece;
     border-radius: 20px;
     padding: 5px;
+    width: 240px;
 
 }
 
@@ -250,8 +255,8 @@ input::placeholder {
 }
 
 .hosting_figure img {
-    width: 100%;
-    height: 120px;
+    width: 240px;
+    height: 115px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -259,7 +264,6 @@ input::placeholder {
 .hosting_figure figcaption {
     position: relative;
     height: 60px;
-    background-color: white;
     padding: 4%;
 }
 
@@ -269,7 +273,7 @@ input::placeholder {
     margin: 0px;
 }
 
-.hosting_figure h4 {
+.hosting_figure h3 {
     margin: 0px;
 }
 
@@ -310,6 +314,7 @@ input::placeholder {
     height: 140px;
     display: flex;
     margin: 40px 40px;
+    min-width: 290px;
 }
 
 .popularity_figure figcaption {
@@ -318,14 +323,13 @@ input::placeholder {
 }
 
 .popularity_figure img {
-    width: 40%;
-    height: 140px;
+    width: 130px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
-    min-width: 108px;
+    min-width: 130px;
 }
 
-.popularity_figure h4 {
+.popularity_figure h3 {
     margin: 10px 0px 0px 0px;
 }
 
@@ -348,7 +352,7 @@ input::placeholder {
 .activity_figure img {
     border-radius: 20px;
     box-shadow: 10px 5px 15px #cecece;
-    width: 95%;
+    width: 290px;
     height: 100%;
     object-fit: cover;
 }
@@ -362,7 +366,7 @@ input::placeholder {
     position: relative;
     bottom: 60px;
     height: 60px;
-    width: 95%;
+    width: 290px;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
     display: flex;
@@ -370,7 +374,7 @@ input::placeholder {
 
 }
 
-.activity_container h4 {
+.activity_container h3 {
     padding-left: 5%;
 }
 
@@ -378,7 +382,7 @@ input::placeholder {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 40px 30px;
+    gap: 40px 20px;
     grid-template-areas:
         "big1 small1 big2 small3"
         "big1 small2 big2 small4";
@@ -447,7 +451,7 @@ footer a {
         display: block;
     }
 
-    #logo {
+    .logo {
         margin-left: 20px;
     }
 
@@ -506,9 +510,11 @@ footer a {
     h2 {
         font-size: 20px;
     }
-    .containerMain h1 { 
+
+    .containerMain h1 {
         width: 80%;
     }
+
     .containerMain>p {
         margin-bottom: 30px;
     }
@@ -560,11 +566,23 @@ footer a {
 
     .hosting_figure {
         display: block;
-        padding: 5%;
+        padding-top: 30px;
     }
 
     .hosting_marseille h2 {
         margin-bottom: 0;
+        padding-left: 30px;
+    }
+
+    .hosting_figure img {
+        width: 315px;
+    }
+
+    .hosting_figure figure {
+        width: 315px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding: 0px;
     }
 
     .popularity {
@@ -576,72 +594,43 @@ footer a {
     }
 
     .popularity_figure {
-        margin: 20px 20px;
-        height: 120px;
+        margin: 10px;
+        height: 140px;
     }
 
     .popularity_figure p {
-        margin: 5px 0px 10px 0px;
+        margin: 5px 0px 30px 0px;
     }
 
-    .popularity_figure img {
-        height: 120px;
-    }
 
     .watch_more {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     /* ACTIVITY */
-    #activity {
-        margin-left: 20px;
+
+    #activity h2 {
+        margin-left: 30px;
     }
 
     .activity_container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "big1"
-            "small1"
-            "small2"
-            "big2"
-            "small3"
-            "small4";
-    }
-
-    .big1 {
-        grid-area: big1;
-    }
-
-    .small1 {
-        grid-area: small1;
-    }
-
-    .small2 {
-        grid-area: small2;
-    }
-
-    .big2 {
-        grid-area: big2;
-    }
-
-    .small3 {
-        grid-area: small3;
-    }
-
-    .small4 {
-        grid-area: small4;
+        display: block;
     }
 
 
     .activity_figure {
         height: 200px;
+        width: 320px;
+        margin: auto;
+        margin-bottom: 30px;
     }
 
     .activity_figure img {
-        height: 170px;
+        width: 320px;
+    }
+
+    .activity_figure figcaption {
+        width: 320px;
     }
 
     /* FOOTER */
@@ -745,10 +734,11 @@ footer a {
     }
 
     .hosting_figure a {
-        width: 46%;
+        width: auto;
+        padding: 10px;
     }
 
-    .hosting_figure h4 {
+    .hosting_figure h3 {
         font-size: 15px;
     }
 
@@ -758,19 +748,28 @@ footer a {
 
     /*ACTIVITY */
 
-    #activity {
-        margin-left: 20px;
+    #activity h2 {
+        margin-left: 30px;
     }
 
     .activity_container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        gap: 40px 30px;
-        grid-template-areas:
-            "big1 small1"
-            "big1 small2"
-            "big2 small3"
-            "big2 small4";
+        display: block;
+    }
+
+
+    .activity_figure {
+        height: 200px;
+        width: 320px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .activity_figure img {
+        width: 320px;
+    }
+
+    .activity_figure figcaption {
+        width: 320px;
     }
 
     /*FOOTER */
@@ -788,7 +787,7 @@ footer a {
 
 /* TABLETS / IPADS */
 
-@media (min-width: 728px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     /*MainContainer */
 
@@ -816,10 +815,10 @@ footer a {
     }
 
     .hosting_figure a {
-        width: 46%;
+        width: 40%;
     }
 
-    .hosting_figure h4 {
+    .hosting_figure h3 {
         font-size: 15px;
     }
 
@@ -866,10 +865,15 @@ footer a {
 
     .popularity_container {
         display: flex;
+        justify-content: space-around;
     }
 
-    .popularity_container h4 {
+    .popularity_container h3 {
         font-size: 14px;
+    }
+
+    .popularity_container a {
+        width: 33%;
     }
 
     .popularity_title h2 {
@@ -877,6 +881,25 @@ footer a {
     }
 
     .popularity_figure {
-        width: 80%;
+        width: 20%;
+        margin: 30px 10px 30px 10px;
     }
+
+    /*ACTIVITY */
+
+    #activity {
+        margin-left: 20px;
+    }
+
+    .activity_container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 40px 30px;
+        grid-template-areas:
+            "big1 small1"
+            "big1 small2"
+            "big2 small3"
+            "big2 small4";
+    }
+
 }
