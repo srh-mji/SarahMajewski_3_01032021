@@ -1,1 +1,1 @@
-body{font-family:"roboto"}a{text-decoration:none;color:#000}/*# sourceMappingURL=style.css.map */
+body{font-family:"roboto";margin:0;padding:0}body a{text-decoration:none;color:#000}header{display:flex;justify-content:center;padding:10px}footer{background-color:#353535;color:#fff;padding-bottom:20px}footer h2{font-family:Shrikhand;font-size:16px;font-weight:500;margin-left:40px;padding-top:20px}footer ul{list-style:none}footer ul li{padding:5px}footer ul li a{color:#fff}footer ul li a i{margin-right:10px}/*# sourceMappingURL=style.css.map */
