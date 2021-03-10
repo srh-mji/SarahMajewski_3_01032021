@@ -93,6 +93,7 @@
         figure {
             margin: 0px;
             width: 330px;
+            position: relative;
             img {
                 width: 330px;
                 height: 180px;
@@ -102,7 +103,7 @@
             .new {
                 position: absolute;
                 right: 40px;
-                top: 800px;
+                top: 10px;
                 background-color: #99E2D0;
                 width: 70px;
                 color: #008766;
@@ -112,9 +113,6 @@
                 border-radius: 4px;
                 text-align: center;
 
-                &.new2 {
-                    top: 1080px;
-                }
             }
 
             figcaption {
