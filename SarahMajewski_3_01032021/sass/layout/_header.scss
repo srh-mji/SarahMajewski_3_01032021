@@ -1,5 +1,15 @@
 header {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    h1 {
+        font-family: Shrikhand;
+        font-weight: 300;
+    }
+    
+    i {
+        position: absolute;
+    left: 40px;
+    top: 40px;
+    }
 }
