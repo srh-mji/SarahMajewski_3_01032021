@@ -85,14 +85,5 @@ main {
                 }
             }
         }
-
-        .btn {
-            display: flex;
-            justify-content: center;
-
-            button {
-                @include button(#9356dc);
-            }
-        }
     }
 }
