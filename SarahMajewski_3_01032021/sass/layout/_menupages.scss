@@ -45,7 +45,7 @@ main {
 
                 .menuContainer_title {
                     width: 75%;
-                    padding: 15px 20px 15px 10px;
+                    padding: 15px 0px 15px 10px;
 
                     h2 {
                         font-size: 16px;
@@ -68,6 +68,7 @@ main {
                     display: flex;
                     align-items: flex-end;
                     font-weight: 700;
+                    padding-left: 25px;
                 }
 
                 .check {
@@ -79,7 +80,7 @@ main {
                     width: 40px;
                     height: 69px;
                     color: white;
-                    margin: 0px -100px 0px 80px;
+                    margin: 0px -150px 0px 80px;
                     font-size: 20px;
                 }
             }

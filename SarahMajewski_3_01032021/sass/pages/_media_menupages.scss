@@ -1,4 +1,83 @@
 // MEDIA QUERY MENUPAGES
-@media screen and (max-width: px) {
 
+// TABLET
+@media screen and (min-width: 600px) and (max-width:1025px){
+    main {
+        .main_image {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 600px;
+                height: 250px;
+                object-fit: cover;
+            }
+        }
+
+        .main_container {
+            max-width: 550px;
+            width: 550px;
+            margin: auto;
+            margin-top: -40px;
+            margin-bottom: -13px;
+        }
+    }
+}
+
+// TABLET&LAPTOP
+@media screen and (min-width: 1024px) and (max-width:1440px) {
+    main {
+        .main_image {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 1024px;
+                height: 350px;
+                object-fit: cover;
+            }
+        }
+
+        .main_container {
+            max-width: 950px;
+            width: 950px;
+            margin: auto;
+            margin-top: -40px;
+            margin-bottom: -13px;
+
+            .all_menuMain {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+// DEKSTOP
+@media screen and (min-width: 1440px) {
+    main {
+        .main_image {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 1440px;
+                height: 450px;
+                object-fit: cover;
+            }
+        }
+
+        .main_container {
+            max-width: 1150px;
+            width: 1150px;
+            margin: auto;
+            margin-top: -40px;
+            margin-bottom: -13px;
+
+            .all_menuMain {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 }
