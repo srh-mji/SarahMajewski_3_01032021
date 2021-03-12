@@ -59,9 +59,9 @@
             align-items: center;
             background-color: #F6F6F6;
             font-weight: 700;
-            padding:8px 15px 8px 40px;
+            padding: 8px 15px 8px 30px;
             margin: 10px;
-            width: 260px;
+            width: 85%;
             border-radius: 20px;
             box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 /10%);
 
@@ -83,50 +83,68 @@
 }
 
 .restaurant {
-    margin-left: 20px;
+    h2 {
+        margin-left: 20px;
+    }
+
     .restaurant_figure {
         margin-bottom: 50px;
-        figure {
-            margin: 0px;
-            width: 330px;
-            position: relative;
-            img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        a {
+            padding: 10px;
+
+            figure {
+                margin: 0px;
                 width: 330px;
-                height: 180px;
-                object-fit: cover;
-                border-radius: 20px 20px 0px 0px;
-            }
-            .new {
-                position: absolute;
-                right: 40px;
-                top: 10px;
-                background-color: #99E2D0;
-                width: 70px;
-                color: #008766;
-                font-size: 14px;
-                font-weight: 400;
-                padding: 7px;
-                border-radius: 4px;
-                text-align: center;
-
-            }
-
-            figcaption {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 0px 50px 0px 20px;
-                border-radius: 0px 0px 20px 20px;
-                box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 /10%);
-                margin-bottom: 20px;
-                h3 {
-                    margin: 10px 0px 5px 0px;
+                position: relative;
+    
+                img {
+                    width: 330px;
+                    height: 180px;
+                    object-fit: cover;
+                    border-radius: 20px 20px 0px 0px;
                 }
-                p {
-                    margin:0px;
-                    margin-bottom: 15px;
+    
+                .new {
+                    position: absolute;
+                    right: 40px;
+                    top: 10px;
+                    background-color: #99E2D0;
+                    width: 70px;
+                    color: #008766;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding: 7px;
+                    border-radius: 4px;
+                    text-align: center;
+    
+                }
+    
+                figcaption {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 50px 0px 20px;
+                    border-radius: 0px 0px 20px 20px;
+                    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 /10%);
+                    margin-bottom: 20px;
+    
+                    h3 {
+                        margin: 10px 0px 5px 0px;
+                    }
+    
+                    p {
+                        margin: 0px;
+                        margin-bottom: 15px;
+                    }
                 }
             }
         }
+
+        
     }
 }

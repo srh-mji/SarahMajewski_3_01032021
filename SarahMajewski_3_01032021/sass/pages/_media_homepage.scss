@@ -1,0 +1,73 @@
+// MEDIA QUERY HOMEPAGE
+
+// PETIT SMARTPHONE
+
+@media screen and (max-width: 360px) {
+    .restaurant {
+        .restaurant_figure {
+
+            a {
+                padding: 0;
+
+                figure {
+                    width: 290px;
+
+                    img {
+                        width: 290px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET & LAPTOP
+@media screen and (min-width: 965px) {
+    .fonctionnement {
+        &>div {
+            display: flex;
+            justify-content: space-around;
+
+            .fct_container {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                width: 100%;
+
+                .fct_container_number {
+                    position: relative;
+                }
+
+                .fct_container_tuto {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .restaurant {
+        .restaurant_figure {
+            a {
+                figure {
+                    width: 450px;
+                    img {
+                        width: 450px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// DEKSTOP 
+@media screen and (min-width:1024px) {
+    .fonctionnement {
+        margin-left: 80px;
+    }
+
+    .restaurant {
+        margin-left: 80px;
+        h2 {
+            margin-left: 0px;
+        }
+    }
+}
