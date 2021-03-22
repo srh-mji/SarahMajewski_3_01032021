@@ -1,0 +1,22 @@
+@keyframes opacity_loader {
+    100% {
+        opacity: 0;
+        z-index:-1;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: scale(0.2);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
