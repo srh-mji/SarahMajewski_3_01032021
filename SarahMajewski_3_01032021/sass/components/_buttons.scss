@@ -1,5 +1,8 @@
-.reserve button {
-    @include button(#9356dc);
+.reserve { 
+    button {
+        @include button(#9356dc);
+    }
+
 }
 
 

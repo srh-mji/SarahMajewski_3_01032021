@@ -71,9 +71,8 @@
                 font-size: 20px;
             }
 
-            &.fct_color {
+            &:hover {
                 background-color: #F5EDFF;
-
                 i {
                     color: $color-primary;
                 }

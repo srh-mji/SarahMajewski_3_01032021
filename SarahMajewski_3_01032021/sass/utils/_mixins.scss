@@ -8,4 +8,9 @@
     border-radius: 50px;
     padding: 10px 30px 10px 30px;
     background: linear-gradient(160deg, rgba(255,121,218,1) 1%, rgba(147,86,220,1) 84%);
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 /30%);
+    &:hover {
+        box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 /50%);
+        opacity: 0.8;
+    }
 }

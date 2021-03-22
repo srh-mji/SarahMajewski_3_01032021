@@ -1,0 +1,30 @@
+.heartContainer {
+    width: 32px;
+    height: 32px;
+
+    &:hover .fas {
+        opacity: 1;
+        background: linear-gradient(0deg, #ff79da, #9356dc);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &:hover .far {
+        opacity: 0;
+    }
+
+    .fa-heart {
+        position: absolute;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .fas {
+        opacity: 0;
+        transition: opacity 0.35s;
+        color: $color-primary;
+    }
+}
+
+
+
+
