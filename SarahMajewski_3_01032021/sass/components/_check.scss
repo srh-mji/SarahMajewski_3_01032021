@@ -1,0 +1,18 @@
+.menuContainer {
+    cursor: pointer;
+
+    &:hover {
+        .check {
+            margin: 0px!important;
+            transition: 0.85s;
+            i {
+                animation: rotate 1s;
+            }
+        }
+        
+        .menuContainer_title {
+            width: 50% !important;
+            min-width: 50% !important;
+        }
+    }
+}

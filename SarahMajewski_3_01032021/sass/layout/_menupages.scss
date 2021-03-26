@@ -16,12 +16,12 @@ main {
 
         .menu1_title {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             font-family: Shrikhand;
             font-weight: 700;
             font-size: 17px;
-            margin-left: -15px;
+            margin: 10px 20px 0px 20px;
         }
 
         .menuMain {
@@ -37,6 +37,7 @@ main {
 
             .menuContainer {
                 display: flex;
+                justify-content: space-between;
                 background-color: white;
                 border-radius: 20px;
                 width: 95%;
@@ -45,6 +46,7 @@ main {
 
                 .menuContainer_title {
                     width: 75%;
+                    min-width: 75%;
                     padding: 15px 0px 15px 10px;
 
                     h2 {
@@ -77,7 +79,7 @@ main {
                     justify-content: center;
                     align-items: center;
                     background-color: #99e2d0;
-                    width: 40px;
+                    width: 69px;
                     height: 69px;
                     color: white;
                     margin: 0px -150px 0px 80px;
