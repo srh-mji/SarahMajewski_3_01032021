@@ -1,10 +1,12 @@
 .menuContainer {
     cursor: pointer;
-
+    .check {
+        transition: 0.5s;
+    }
     &:hover {
         .check {
             margin: 0px!important;
-            transition: 0.85s;
+            transition: 0.5s;
             i {
                 animation: rotate 1s;
             }
