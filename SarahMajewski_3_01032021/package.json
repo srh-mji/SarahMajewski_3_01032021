@@ -1,5 +1,5 @@
 {
-  "name": "srh-mji.github.io",
+  "name": "SarahMajewski_3_01032021",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,13 +10,13 @@
 
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srh-mji/srh-mji.github.io.git"
+    "url": "git+https://github.com/srh-mji/SarahMajewski_3_01032021.git"
   },
   "author": "",
   "license": "ISC",
   "browserslist": "last 4 versions",
   "bugs": {
-    "url": "https://github.com/srh-mji/srh-mji.github.io/issues"
+    "url": "https://github.com/srh-mji/SarahMajewski_3_01032021/issues"
   },
-  "homepage": "https://github.com/srh-mji/srh-mji.github.io#readme"
+  "homepage": "https://github.com/srh-mji/SarahMajewski_3_01032021#readme"
 }
